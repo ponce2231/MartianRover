@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639B24547E49005D5AC0 /* AppDelegate.swift */; };
+		0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */; };
+		0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639F24547E49005D5AC0 /* ViewController.swift */; };
+		0B6F63A324547E49005D5AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A124547E49005D5AC0 /* Main.storyboard */; };
+		0B6F63A524547E4E005D5AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A424547E4E005D5AC0 /* Assets.xcassets */; };
+		0B6F63A824547E4E005D5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */; };
+		3302D72893DDABA46928F63E /* Pods_MartianRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B6F639824547E49005D5AC0 /* MartianRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MartianRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6F639B24547E49005D5AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B6F639F24547E49005D5AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B6F63A224547E49005D5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B6F63A424547E4E005D5AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B6F63A724547E4E005D5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B6F63A924547E4E005D5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MartianRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.release.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.release.xcconfig"; sourceTree = "<group>"; };
+		D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.debug.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6F639524547E49005D5AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3302D72893DDABA46928F63E /* Pods_MartianRover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F0E1797B6F4E7B0BCAA9B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */,
+				B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0B6F638F24547E49005D5AC0 = {
+			isa = PBXGroup;
+			children = (
+				0B6F639A24547E49005D5AC0 /* MartianRover */,
+				0B6F639924547E49005D5AC0 /* Products */,
+				06F0E1797B6F4E7B0BCAA9B5 /* Pods */,
+				19A18340C198D3A41E9523F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6F639924547E49005D5AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F639824547E49005D5AC0 /* MartianRover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6F639A24547E49005D5AC0 /* MartianRover */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F63AF24547EF8005D5AC0 /* Model */,
+				0B6F63B024547F0B005D5AC0 /* View */,
+				0B6F63B124547F15005D5AC0 /* Controller */,
+				0B6F63B5245480A0005D5AC0 /* StoryBoard */,
+				0B6F63A424547E4E005D5AC0 /* Assets.xcassets */,
+				0B6F639B24547E49005D5AC0 /* AppDelegate.swift */,
+				0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */,
+				0B6F63A924547E4E005D5AC0 /* Info.plist */,
+			);
+			path = MartianRover;
+			sourceTree = "<group>";
+		};
+		0B6F63AF24547EF8005D5AC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F63B224547FD9005D5AC0 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B6F63B024547F0B005D5AC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B6F63B124547F15005D5AC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F639F24547E49005D5AC0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0B6F63B224547FD9005D5AC0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F63B424548013005D5AC0 /* Response */,
+				0B6F63B324547FF2005D5AC0 /* Request */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0B6F63B324547FF2005D5AC0 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0B6F63B424548013005D5AC0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0B6F63B5245480A0005D5AC0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F63A124547E49005D5AC0 /* Main.storyboard */,
+				0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		19A18340C198D3A41E9523F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6F639724547E49005D5AC0 /* MartianRover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6F63AC24547E4E005D5AC0 /* Build configuration list for PBXNativeTarget "MartianRover" */;
+			buildPhases = (
+				2E20791DFCFEB8F35E5EEBA4 /* [CP] Check Pods Manifest.lock */,
+				0B6F639424547E49005D5AC0 /* Sources */,
+				0B6F639524547E49005D5AC0 /* Frameworks */,
+				0B6F639624547E49005D5AC0 /* Resources */,
+				8A4182A22EA4F7880A5B06F0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MartianRover;
+			productName = MartianRover;
+			productReference = 0B6F639824547E49005D5AC0 /* MartianRover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6F639024547E49005D5AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Christopher Ponce Mendez";
+				TargetAttributes = {
+					0B6F639724547E49005D5AC0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B6F639324547E49005D5AC0 /* Build configuration list for PBXProject "MartianRover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B6F638F24547E49005D5AC0;
+			productRefGroup = 0B6F639924547E49005D5AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6F639724547E49005D5AC0 /* MartianRover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6F639624547E49005D5AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6F63A824547E4E005D5AC0 /* LaunchScreen.storyboard in Resources */,
+				0B6F63A524547E4E005D5AC0 /* Assets.xcassets in Resources */,
+				0B6F63A324547E49005D5AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E20791DFCFEB8F35E5EEBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MartianRover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4182A22EA4F7880A5B06F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartianRover/Pods-MartianRover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MartianRover/Pods-MartianRover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MartianRover/Pods-MartianRover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6F639424547E49005D5AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */,
+				0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */,
+				0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B6F63A124547E49005D5AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6F63A224547E49005D5AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6F63A724547E4E005D5AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6F63AA24547E4E005D5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B6F63AB24547E4E005D5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B6F63AD24547E4E005D5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4V484KUQW;
+				INFOPLIST_FILE = MartianRover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.MartianRover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6F63AE24547E4E005D5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4V484KUQW;
+				INFOPLIST_FILE = MartianRover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.MartianRover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6F639324547E49005D5AC0 /* Build configuration list for PBXProject "MartianRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6F63AA24547E4E005D5AC0 /* Debug */,
+				0B6F63AB24547E4E005D5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6F63AC24547E4E005D5AC0 /* Build configuration list for PBXNativeTarget "MartianRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6F63AD24547E4E005D5AC0 /* Debug */,
+				0B6F63AE24547E4E005D5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B6F639024547E49005D5AC0 /* Project object */;
+}
