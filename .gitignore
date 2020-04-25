@@ -1,0 +1,10 @@
+#
+# file created by: Christopher Ponce
+#
+#
+
+#ignoring pod Dir
+Pods
+
+#ignoring Podfile lock
+Podfile.lock
