@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4D5ED42457838C00A65C6D /* NasaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D5ED32457838C00A65C6D /* NasaClient.swift */; };
 		0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639B24547E49005D5AC0 /* AppDelegate.swift */; };
 		0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */; };
 		0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639F24547E49005D5AC0 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4D5ED32457838C00A65C6D /* NasaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaClient.swift; sourceTree = "<group>"; };
 		0B6F639824547E49005D5AC0 /* MartianRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MartianRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6F639B24547E49005D5AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */,
 				B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,13 +74,15 @@
 		0B6F639A24547E49005D5AC0 /* MartianRover */ = {
 			isa = PBXGroup;
 			children = (
+				0B6F639B24547E49005D5AC0 /* AppDelegate.swift */,
+				0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */,
 				0B6F63AF24547EF8005D5AC0 /* Model */,
 				0B6F63B024547F0B005D5AC0 /* View */,
 				0B6F63B124547F15005D5AC0 /* Controller */,
 				0B6F63B5245480A0005D5AC0 /* StoryBoard */,
+				0B6F63A124547E49005D5AC0 /* Main.storyboard */,
+				0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */,
 				0B6F63A424547E4E005D5AC0 /* Assets.xcassets */,
-				0B6F639B24547E49005D5AC0 /* AppDelegate.swift */,
-				0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */,
 				0B6F63A924547E4E005D5AC0 /* Info.plist */,
 			);
 			path = MartianRover;
@@ -88,6 +91,7 @@
 		0B6F63AF24547EF8005D5AC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0B4D5ED32457838C00A65C6D /* NasaClient.swift */,
 				0B6F63B224547FD9005D5AC0 /* Network */,
 			);
 			path = Model;
@@ -134,8 +138,6 @@
 		0B6F63B5245480A0005D5AC0 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				0B6F63A124547E49005D5AC0 /* Main.storyboard */,
-				0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -264,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */,
+				0B4D5ED42457838C00A65C6D /* NasaClient.swift in Sources */,
 				0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */,
 				0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */,
 			);
