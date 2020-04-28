@@ -8,59 +8,78 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--PickerVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="PickerVC" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKX-Gv-LVc">
-                                <rect key="frame" x="0.0" y="195" width="414" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKX-Gv-LVc">
+                                <rect key="frame" x="47" y="340" width="320" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Pt3-Sq-9rg"/>
+                                    <constraint firstAttribute="height" constant="216" id="YQs-xS-Sb2"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="dfo-j1-7dh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="DhC-4P-gcF"/>
+                                </connections>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dKX-Gv-LVc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZOa-p1-g7w"/>
+                            <constraint firstItem="dKX-Gv-LVc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zaz-0Y-WVb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="z1T-FF-eOI" kind="show" identifier="PickerSegue" id="yXZ-Hg-UPN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="72"/>
+            <point key="canvasLocation" x="-657" y="67"/>
         </scene>
-        <!--View Controller-->
+        <!--PickerVC-->
         <scene sceneID="phg-uc-Vie">
             <objects>
-                <viewController id="zOS-Pk-pzD" customClass="ViewController" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="zOS-Pk-pzD" customClass="PickerVC" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="63j-7O-Ui4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-gX-QZc">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-gX-QZc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fQF-gX-QZc" firstAttribute="bottom" secondItem="UuC-gU-bdo" secondAttribute="bottom" id="CTf-lh-imF"/>
+                            <constraint firstItem="UuC-gU-bdo" firstAttribute="trailing" secondItem="fQF-gX-QZc" secondAttribute="trailing" id="NdA-9K-s3y"/>
+                            <constraint firstItem="fQF-gX-QZc" firstAttribute="leading" secondItem="UuC-gU-bdo" secondAttribute="leading" id="Nyl-3C-Vvo"/>
+                            <constraint firstItem="fQF-gX-QZc" firstAttribute="top" secondItem="63j-7O-Ui4" secondAttribute="top" id="RLL-tt-Nq7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UuC-gU-bdo"/>
                     </view>
+                    <navigationItem key="navigationItem" id="37y-6N-Kf2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riU-0o-YwV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1886.9565217391305" y="66.964285714285708"/>
+            <point key="canvasLocation" x="2797.1014492753625" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--PickerVC-->
         <scene sceneID="3p7-GX-zIq">
             <objects>
-                <viewController id="qWh-dB-hdP" customClass="ViewController" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qWh-dB-hdP" customClass="PickerVC" customModule="MartianRover" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Bk-Bp-p2Y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kFX-dy-N46">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kFX-dy-N46">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="htm-iP-1gu">
                                     <size key="itemSize" width="128" height="128"/>
@@ -69,7 +88,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UdH-7p-gmF">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="UdH-7p-gmF">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d7p-Ea-PWU">
@@ -78,15 +97,58 @@
                                         </collectionViewCellContentView>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="qWh-dB-hdP" id="b32-qB-gKg"/>
+                                    <outlet property="delegate" destination="qWh-dB-hdP" id="vFO-5D-dz6"/>
+                                </connections>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZ7-EI-LTg">
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="27"/>
+                                <state key="normal" title="New Photos"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eZ7-EI-LTg" firstAttribute="top" secondItem="kFX-dy-N46" secondAttribute="bottom" id="6Yl-2a-63Y"/>
+                            <constraint firstItem="eZ7-EI-LTg" firstAttribute="leading" secondItem="jhh-tm-ZhB" secondAttribute="leading" id="Auw-9z-lS6"/>
+                            <constraint firstItem="eZ7-EI-LTg" firstAttribute="top" secondItem="kFX-dy-N46" secondAttribute="bottom" id="EVS-Nw-DLU"/>
+                            <constraint firstItem="kFX-dy-N46" firstAttribute="leading" secondItem="jhh-tm-ZhB" secondAttribute="leading" id="JqJ-Im-CLf"/>
+                            <constraint firstItem="kFX-dy-N46" firstAttribute="top" secondItem="6Bk-Bp-p2Y" secondAttribute="top" id="NxV-KV-9bC"/>
+                            <constraint firstItem="jhh-tm-ZhB" firstAttribute="trailing" secondItem="eZ7-EI-LTg" secondAttribute="trailing" id="pMz-hO-7iN"/>
+                            <constraint firstItem="jhh-tm-ZhB" firstAttribute="trailing" secondItem="kFX-dy-N46" secondAttribute="trailing" id="waW-K9-nfp"/>
+                            <constraint firstItem="eZ7-EI-LTg" firstAttribute="bottom" secondItem="jhh-tm-ZhB" secondAttribute="bottom" id="zkg-vK-Icw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jhh-tm-ZhB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JnF-MT-GHB"/>
+                    <connections>
+                        <segue destination="zOS-Pk-pzD" kind="show" identifier="PhotoSegue" id="GpI-za-af3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoC-VU-Kee" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057.9710144927537" y="66.964285714285708"/>
+            <point key="canvasLocation" x="1663.7681159420292" y="66.964285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Lr-0h-YQr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="z1T-FF-eOI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Oqt-VG-JTb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yrb-CY-lDW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qWh-dB-hdP" kind="relationship" relationship="rootViewController" id="5mE-sN-7wM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7h-qm-BbA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="67"/>
         </scene>
     </scenes>
 </document>

@@ -10,10 +10,12 @@
 		0B4D5ED42457838C00A65C6D /* NasaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D5ED32457838C00A65C6D /* NasaClient.swift */; };
 		0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639B24547E49005D5AC0 /* AppDelegate.swift */; };
 		0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */; };
-		0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639F24547E49005D5AC0 /* ViewController.swift */; };
+		0B6F63A024547E49005D5AC0 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F639F24547E49005D5AC0 /* PickerVC.swift */; };
 		0B6F63A324547E49005D5AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A124547E49005D5AC0 /* Main.storyboard */; };
 		0B6F63A524547E4E005D5AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A424547E4E005D5AC0 /* Assets.xcassets */; };
 		0B6F63A824547E4E005D5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */; };
+		0B773E7324585001006A457A /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E7224585001006A457A /* CollectionVC.swift */; };
+		0B773E752458501C006A457A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E742458501C006A457A /* DetailVC.swift */; };
 		3302D72893DDABA46928F63E /* Pods_MartianRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +24,13 @@
 		0B6F639824547E49005D5AC0 /* MartianRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MartianRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6F639B24547E49005D5AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B6F639D24547E49005D5AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B6F639F24547E49005D5AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B6F639F24547E49005D5AC0 /* PickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
 		0B6F63A224547E49005D5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B6F63A424547E4E005D5AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6F63A724547E4E005D5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B6F63A924547E4E005D5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B773E7224585001006A457A /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		0B773E742458501C006A457A /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MartianRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.release.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.release.xcconfig"; sourceTree = "<group>"; };
 		D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.debug.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,7 +111,9 @@
 		0B6F63B124547F15005D5AC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0B6F639F24547E49005D5AC0 /* ViewController.swift */,
+				0B6F639F24547E49005D5AC0 /* PickerVC.swift */,
+				0B773E7224585001006A457A /* CollectionVC.swift */,
+				0B773E742458501C006A457A /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6F63A024547E49005D5AC0 /* ViewController.swift in Sources */,
+				0B6F63A024547E49005D5AC0 /* PickerVC.swift in Sources */,
 				0B4D5ED42457838C00A65C6D /* NasaClient.swift in Sources */,
 				0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */,
 				0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */,
+				0B773E7324585001006A457A /* CollectionVC.swift in Sources */,
+				0B773E752458501C006A457A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
