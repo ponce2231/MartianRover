@@ -28,13 +28,20 @@ class CollectionVC: UIViewController {
     */
 
 }
+
+private let reuseIdentifier = "cell"
+
 extension CollectionVC: UICollectionViewDelegate, UICollectionViewDataSource{
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        
+        return cell
     }
     
     

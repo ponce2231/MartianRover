@@ -16,6 +16,11 @@
 		0B6F63A824547E4E005D5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F63A624547E4E005D5AC0 /* LaunchScreen.storyboard */; };
 		0B773E7324585001006A457A /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E7224585001006A457A /* CollectionVC.swift */; };
 		0B773E752458501C006A457A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E742458501C006A457A /* DetailVC.swift */; };
+		0B773E772459F263006A457A /* NasaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E762459F263006A457A /* NasaResponse.swift */; };
+		0B773E792459F295006A457A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E782459F295006A457A /* Photo.swift */; };
+		0B773E7B2459F2C9006A457A /* PhotoCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E7A2459F2C9006A457A /* PhotoCamera.swift */; };
+		0B773E7D2459F42C006A457A /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E7C2459F42C006A457A /* Rover.swift */; };
+		0B773E7F2459F4A1006A457A /* CameraElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B773E7E2459F4A1006A457A /* CameraElement.swift */; };
 		3302D72893DDABA46928F63E /* Pods_MartianRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,11 @@
 		0B6F63A924547E4E005D5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B773E7224585001006A457A /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		0B773E742458501C006A457A /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		0B773E762459F263006A457A /* NasaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaResponse.swift; sourceTree = "<group>"; };
+		0B773E782459F295006A457A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0B773E7A2459F2C9006A457A /* PhotoCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCamera.swift; sourceTree = "<group>"; };
+		0B773E7C2459F42C006A457A /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		0B773E7E2459F4A1006A457A /* CameraElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraElement.swift; sourceTree = "<group>"; };
 		1BD0BFDB62ACC20BF5C792BD /* Pods_MartianRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MartianRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03E4C2901D184D94869ACDD /* Pods-MartianRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.release.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.release.xcconfig"; sourceTree = "<group>"; };
 		D61412981FF403EC6DAEA4A3 /* Pods-MartianRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianRover.debug.xcconfig"; path = "Target Support Files/Pods-MartianRover/Pods-MartianRover.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +147,11 @@
 		0B6F63B424548013005D5AC0 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				0B773E762459F263006A457A /* NasaResponse.swift */,
+				0B773E782459F295006A457A /* Photo.swift */,
+				0B773E7A2459F2C9006A457A /* PhotoCamera.swift */,
+				0B773E7C2459F42C006A457A /* Rover.swift */,
+				0B773E7E2459F4A1006A457A /* CameraElement.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -271,11 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B773E7D2459F42C006A457A /* Rover.swift in Sources */,
+				0B773E792459F295006A457A /* Photo.swift in Sources */,
 				0B6F63A024547E49005D5AC0 /* PickerVC.swift in Sources */,
 				0B4D5ED42457838C00A65C6D /* NasaClient.swift in Sources */,
 				0B6F639C24547E49005D5AC0 /* AppDelegate.swift in Sources */,
+				0B773E7B2459F2C9006A457A /* PhotoCamera.swift in Sources */,
 				0B6F639E24547E49005D5AC0 /* SceneDelegate.swift in Sources */,
+				0B773E7F2459F4A1006A457A /* CameraElement.swift in Sources */,
 				0B773E7324585001006A457A /* CollectionVC.swift in Sources */,
+				0B773E772459F263006A457A /* NasaResponse.swift in Sources */,
 				0B773E752458501C006A457A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
