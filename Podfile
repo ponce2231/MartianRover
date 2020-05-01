@@ -8,6 +8,4 @@ target 'MartianRover' do
   # Pods for MartianRover
   pod 'RealmSwift' 
   pod 'Alamofire'
-  pod 'ObjectMapper'
-  pod 'AlamofireObjectMapper'
 end

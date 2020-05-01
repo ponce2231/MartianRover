@@ -7,13 +7,16 @@
 //
 
 import Foundation
+import RealmSwift
+
 // MARK: - Photo
-class Photo: Codable {
-    let id, sol: Int
-    let camera: PhotoCamera
-    let imgSrc: String
-    let earthDate: String
-    let rover: Rover
+class Photo: Object, Codable {
+    
+    @objc dynamic var id, sol: Int
+    @objc dynamic var camera: PhotoCamera
+    @objc dynamic var imgSrc: String
+    @objc dynamic var earthDate: String
+    @objc dynamic var rover: Rover
     
     enum CodingKeys: String, CodingKey {
         case id, sol, camera

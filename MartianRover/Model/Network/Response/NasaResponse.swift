@@ -7,9 +7,12 @@
 //
 
 import Foundation
+import RealmSwift
+
 // MARK: - NasaResponse
-class NasaResponse: Codable {
-    let photos: [Photo]
+class NasaResponse: Object ,Codable {
+    
+  @objc dynamic var photos: [Photo]
     
     init(photos: [Photo]) {
         self.photos = photos

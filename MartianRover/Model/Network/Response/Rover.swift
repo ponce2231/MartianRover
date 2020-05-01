@@ -7,15 +7,17 @@
 //
 
 import Foundation
+import RealmSwift
 // MARK: - Rover
-class Rover: Codable {
-    let id: Int
-    let name, landingDate, launchDate, status: String
-    let maxSol: Int
-    let maxDate: String
-    let totalPhotos: Int
-    let cameras: [CameraElement]
-
+class Rover: Object, Codable{
+    
+   @objc dynamic var id: Int
+   @objc dynamic var name, landingDate, launchDate, status: String
+   @objc dynamic var maxSol: Int
+   @objc dynamic var maxDate: String
+   @objc dynamic var totalPhotos: Int
+   @objc dynamic var cameras: [CameraElement]
+    
     enum CodingKeys: String, CodingKey {
         case id, name
         case landingDate = "landing_date"
@@ -26,7 +28,7 @@ class Rover: Codable {
         case totalPhotos = "total_photos"
         case cameras
     }
-
+    
     init(id: Int, name: String, landingDate: String, launchDate: String, status: String, maxSol: Int, maxDate: String, totalPhotos: Int, cameras: [CameraElement]) {
         self.id = id
         self.name = name
@@ -38,4 +40,5 @@ class Rover: Codable {
         self.totalPhotos = totalPhotos
         self.cameras = cameras
     }
+  
 }

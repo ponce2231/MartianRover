@@ -7,9 +7,12 @@
 //
 
 import Foundation
+import RealmSwift
+
 // MARK: - CameraElement
-class CameraElement: Codable {
-    let name, fullName: String
+class CameraElement: Object, Codable{
+    
+   @objc dynamic var name, fullName: String
     
     enum CodingKeys: String, CodingKey {
         case name
